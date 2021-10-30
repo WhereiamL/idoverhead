@@ -42,14 +42,14 @@ Citizen.CreateThread(function()
 				if not NetworkIsPlayerTalking(id) then
 					DrawText3D(
 						loc,
-						string.format("~y~ID:~w~ %d \n ~y~Igrac:~w~ %s",GetPlayerServerId(id), GetPlayerName(id)),
+						string.format("~y~ID:~w~ %d \n ~y~Player:~w~ %s",GetPlayerServerId(id), GetPlayerName(id)),
 						255,
 						true
 					)
 				else
 					DrawText3D(
 						loc,
-						string.format("~y~ID:~w~ %d \n ~r~ 🎤 Igrac:~w~ %s",GetPlayerServerId(id), GetPlayerName(id)),
+						string.format("~y~ID:~w~ %d \n ~r~ 🎤 Player:~w~ %s",GetPlayerServerId(id), GetPlayerName(id)),
 						255,
 						true
 					)
